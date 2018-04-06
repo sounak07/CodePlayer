@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#menubar{
+    background: #e0e0e0;
+    height: 40px;
+    width: 100%;
+    border-bottom: solid 1px grey;
+}
+
+
+#logo {
+    padding: 10px 0 0 20px;
+    font-weight: bold;
+    font-size: 120%;
+    float: left;
+}
+
+#buttonDiv {
+    float: right;
+    padding: 5px 10px 0 0;
+}
+
+#run{
+    font-size: 20px;
+    border-radius: 5px;
+    background: green;
+}
+
+#toggles{
+    width: 199.5px;
+    list-style: none;
+    margin: 0 auto;
+    height: 27px;
+    border: solid 1px grey;
+    border-radius: 3px;
+    padding:0;
+    position: relative;
+    top: 5px;
+}
+
+#toggles li{
+    float: left;
+    border-right: 1px solid grey;
+    padding: 5px 7px;
+}
+
+.clear {
+    clear: both;
+}
+
+.codeContainer{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+    top: 7px;
+}
+
+.codeContainer textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-right: solid 1px grey;
+    box-sizing: border-box;
+    font-family: monotype;
+    font-size: 90%;
+    padding: 5px;
+}
+
+.codeLabel{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 18px;
+}
+
+#JSContainer,#CSSContainer{
+    display: none;
+}
+
+iframe{
+    height: 100%;
+    position: relative;
+    left: 20px;
+    border: none;
+}
+
+.selected {
+    background: grey;
+}
+
+
+
+
+
+
+

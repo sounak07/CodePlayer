@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html> 
+    
+    <head>
+        
+        <title>CodePlayer</title> 
+        
+        
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        
+        <link rel="stylesheet" href="normalise.css">
+         <link rel="stylesheet" href="style.css">
+        
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet">
+        
+              
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.structure.min.css">
+                    
+    </head>
+     
+    
+    <body>
+        
+        <div id="wrapper">
+        
+          <div id="menubar">
+              
+              <div id="logo">
+                  
+                 CodePlayer
+                  
+             </div> 
+              
+          <div id="buttonDiv">
+              
+              <button id="run">Run</button>         
+              
+          </div>
+         
+              
+            <div>  
+              <ul id="toggles">
+                  <li class="toggle selected">HTML</li>
+                  <li class="toggle">CSS</li>
+                  <li class="toggle">JS</li>
+                  <li class="toggle selected" style="border:none">Result</li>
+              </ul>
+            </div>
+        
+        <div class="clear"></div>
+          
+        <div class="codeContainer" id="HTMLContainer">
+            
+            <div class="codeLabel">HTML</div>
+        
+            <textarea id="htmlCode"><div id="test"></div></textarea>
+        
+        </div>
+        
+        <div class="codeContainer" id="CSSContainer">
+            
+            <div class="codeLabel">CSS</div>
+        
+            <textarea id="cssCode">html{background:green;}</textarea>
+        
+        </div>
+        
+        <div class="codeContainer" id="JSContainer">
+            
+            <div class="codeLabel">JS</div>
+        
+            <textarea id="jsCode">document.getElementById("test").innerHTML="Done!"</textarea>
+        
+        </div>
+        
+        <div class="codeContainer" id="ResultContainer">
+            
+            <div class="codeLabel">Result</div>
+        
+            <iframe id="frame"></iframe>
+        
+        </div>
+        
+       </div>
+            
+     </div>           
+        
+         <!-- Load CDN -->
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+        
+        <!-- Load local if CDN not available -->
+        <script>window.jQuery || document.write('<script src="jquery-3.2.1.slim.js"><\/script>');</script> 
+        
+        <script
+          src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+                
+        <script type="text/javascript" src="app.js"></script> 
+        
+    </body> 
+    
+</html>  
