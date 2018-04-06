@@ -3,3 +3,5 @@ Its a code player where you can put your HTML,CSS and javascript and in the resu
 The only library I have used is Jquery.
 
 To run the project just clone the repository.
+
+Demo:https://sounak07.github.io/CodePlayer/
